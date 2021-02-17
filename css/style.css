@@ -91,6 +91,12 @@
   filter:sepia(5);
 }
 /* /exercise_7 */
+/* exercise_8 */
+.ex-8-img:hover{
+  filter: brightness(1.5);
+  border-radius: 40px;
+}
+/* /exercise_8 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
