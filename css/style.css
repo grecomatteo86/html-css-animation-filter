@@ -86,6 +86,11 @@
   filter: grayscale(1);
 }
 /* /exercise_6 */
+/* exercise_7 */
+.ex-7-img:hover{
+  filter:sepia(5);
+}
+/* /exercise_7 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
