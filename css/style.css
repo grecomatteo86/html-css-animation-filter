@@ -120,9 +120,25 @@
   }
 }
 /* /exercise_10 */
+/* exercise_11 */
 .ex-11-icon {
     font-size: 60px;
 }
+.ex-11-icon:hover{
+  animation:spin2 2s linear infinite;
+}
+@keyframes spin2 {
+  0% {
+    transform: rotate(0);
+  }
+  90% {
+      transform: rotate(320deg);
+  }
+  100% {
+      transform: rotate(0);
+  }
+}
+/* /exercise_11 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
