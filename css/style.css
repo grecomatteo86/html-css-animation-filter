@@ -1,3 +1,4 @@
+/* exercise_1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -7,11 +8,20 @@
 .ex-1-square:hover{
   background: red;
 }
+/* /exercise_1 */
+/* exercise_2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: ease-out 3s;
 }
+.ex-2-square:active{
+  width: 100%;
+  background: yellow;
+  border-radius: 30px;
+}
+/* /exercise_2 */
 .ex-3-square {
     width: 100px;
     height: 100px;
