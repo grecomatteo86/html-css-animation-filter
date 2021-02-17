@@ -139,6 +139,7 @@
   }
 }
 /* /exercise_11 */
+/* exercise_12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -168,3 +169,32 @@
     width: 60px;
     height: 20px;
 }
+.ex-12-button:hover .ex-12-top-white{
+  animation:topmoving 2s linear;
+}
+@keyframes topmoving{
+  0% {
+      left: 10%;
+  }
+  50% {
+      left: calc(100% - 60px);
+  }
+  100% {
+      left: 10%;
+  }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+  animation:bottomoving 2s linear;
+}
+@keyframes bottomoving{
+  0% {
+      right: 10%;
+  }
+  50% {
+      right: calc(100% - 60px);
+  }
+  100% {
+      right: 10%;
+  }
+}
+/* /exercise_12 */
