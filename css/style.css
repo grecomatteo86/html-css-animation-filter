@@ -109,9 +109,17 @@
   filter: invert(2);
 }
 /* /exercise_9 */
+/* exercise_10 */
 .ex-10-icon {
     font-size: 60px;
+    animation:spin 2s linear infinite;
 }
+@keyframes spin {
+  0% {
+      transform: rotate(2turn);
+  }
+}
+/* /exercise_10 */
 .ex-11-icon {
     font-size: 60px;
 }
